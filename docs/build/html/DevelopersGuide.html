@@ -37,49 +37,50 @@
           <div class="body" role="main">
             
   <div class="section" id="developers-guide">
-<span id="developers-guide"></span><h1>Developers Guide<a class="headerlink" href="#developers-guide" title="Permalink to this headline">¶</a></h1>
+<h1>Developers Guide<a class="headerlink" href="#developers-guide" title="Permalink to this headline">¶</a></h1>
 <p>This documents provides information how to develope the ARModule.</p>
 <p>Clone repository:</p>
-<pre class="code highlight bash literal-block">
-sudo apt-get install git
+<div class="code bash highlight-python"><div class="highlight"><pre>sudo apt-get install git
 git clone https://github.com/nubomedia-vtt/armodule.git
-</pre>
+</pre></div>
+</div>
 <p>Setup the developing environment</p>
-<pre class="code highlight bash literal-block">
-<span class="nb">cd </span>armodule/misc
+<div class="code bash highlight-python"><div class="highlight"><pre>cd armodule/misc
 chmod u+x setup.sh
 ./setup.sh
-<span class="nb">cd</span> ..
-</pre>
+cd ..
+</pre></div>
+</div>
 <p>Create a folder to build the ARModule</p>
-<pre class="code highlight bash literal-block">
-mkdir build
-<span class="nb">cd </span>build
-</pre>
-<p>Now you have an option to generate either Java or JavaScript interface for the Kurento Client (or naturally both if you need)</p>
+<div class="code bash highlight-python"><div class="highlight"><pre>mkdir build
+cd build
+</pre></div>
+</div>
+<p>Now you have an option to generate either Java or JavaScript interface
+for the Kurento Client (or naturally both if you need)</p>
 <p>Java version</p>
-<pre class="code highlight bash literal-block">
-cmake .. -DGENERATE_JAVA_CLIENT_PROJECT<span class="o">=</span>TRUE
-</pre>
+<div class="code bash highlight-python"><div class="highlight"><pre>cmake .. -DGENERATE_JAVA_CLIENT_PROJECT=TRUE
+</pre></div>
+</div>
 <p>JavaScript version</p>
-<pre class="code highlight bash literal-block">
-cmake .. -DGENERATE_JS_CLIENT_PROJECT<span class="o">=</span>TRUE
-</pre>
+<div class="code bash highlight-python"><div class="highlight"><pre>cmake .. -DGENERATE_JS_CLIENT_PROJECT=TRUE
+</pre></div>
+</div>
 <p>To use the compiled results in Kurento just set into:</p>
-<pre class="code highlight bash literal-block">
-/etc/default/kurento-media-server-6.0
-</pre>
+<div class="code bash highlight-python"><div class="highlight"><pre>/etc/default/kurento-media-server-6.0
+</pre></div>
+</div>
 <p>path to the armodule/build and ALVAR libarary, for example:</p>
-<pre class="code highlight bash literal-block">
-<span class="nb">export </span><span class="nv">DISPLAY</span><span class="o">=</span>:0
-<span class="nv">NAME</span><span class="o">=</span><span class="k">$(</span>logname<span class="k">)</span>
-<span class="nb">export </span><span class="nv">KURENTO_MODULES_PATH</span><span class="o">=</span><span class="nv">$KURENTO_MODULES_PATH</span>:/home/<span class="nv">$NAME</span>/nubomedia/armodule/build
-<span class="nb">export </span><span class="nv">GST_PLUGIN_PATH</span><span class="o">=</span><span class="nv">$GST_PLUGIN_PATH</span>:/home/<span class="nv">$NAME</span>/nubomedia/armodule/build
-<span class="nb">export </span><span class="nv">LD_LIBRARY_PATH</span><span class="o">=</span><span class="nv">$LD_LIBRARY_PATH</span>:/home/<span class="nv">$NAME</span>/nubomedia/alvar-2.0.0-sdk-linux-gcc44/bin/
-</pre>
-<p>Please for details see also
-<a class="reference external" href="https://github.com/nubomedia-vtt/armoduledemos">ARModule Demo</a>
-for details and as an example how the ARModule can be utilized.</p>
+<div class="code bash highlight-python"><div class="highlight"><pre>export DISPLAY=:0
+NAME=$(logname)
+export KURENTO_MODULES_PATH=$KURENTO_MODULES_PATH:/home/$NAME/nubomedia/armodule/build
+export GST_PLUGIN_PATH=$GST_PLUGIN_PATH:/home/$NAME/nubomedia/armodule/build
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/$NAME/nubomedia/alvar-2.0.0-sdk-linux-gcc44/bin/
+</pre></div>
+</div>
+<p>Please for details see also <a class="reference external" href="https://github.com/nubomedia-vtt/armoduledemos">ARModule
+Demo</a> for details and
+as an example how the ARModule can be utilized.</p>
 </div>
 
 

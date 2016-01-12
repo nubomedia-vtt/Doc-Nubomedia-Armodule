@@ -37,60 +37,65 @@
           <div class="body" role="main">
             
   <div class="section" id="ar-marker-detector-filter-with-3d">
-<span id="ar-marker-detector-filter-with-3d"></span><h1>AR marker detector filter with 3D<a class="headerlink" href="#ar-marker-detector-filter-with-3d" title="Permalink to this headline">¶</a></h1>
+<h1>AR marker detector filter with 3D<a class="headerlink" href="#ar-marker-detector-filter-with-3d" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="installation-instructions">
-<span id="installation-instructions"></span><h2>Installation instructions<a class="headerlink" href="#installation-instructions" title="Permalink to this headline">¶</a></h2>
+<h2>Installation instructions<a class="headerlink" href="#installation-instructions" title="Permalink to this headline">¶</a></h2>
 <p><em>version 2015-09-24</em></p>
 <p><em>Tested on Ubuntu Server 14</em></p>
 <p><em>Tested on Ubuntu Desktop 14</em></p>
 </div>
 </div>
 <div class="section" id="recommend-easy-installation">
-<span id="recommend-easy-installation"></span><h1>Recommend easy installation<a class="headerlink" href="#recommend-easy-installation" title="Permalink to this headline">¶</a></h1>
+<h1>Recommend easy installation<a class="headerlink" href="#recommend-easy-installation" title="Permalink to this headline">¶</a></h1>
 <p>These are the instructions to utilize the ar-markerdetector filter.</p>
-<p>If you wish to have the most convenient installation,
-you should install the following in this order:</p>
+<p>If you wish to have the most convenient installation, you should install
+the following in this order:</p>
 <p>KMS (this refers to the latest KMS version eg KMS6)</p>
 <p>Option apt-get</p>
 <p>Optional - ArMarkerDetectorDemo</p>
 <p>Note that for each of these, installation instructions are given below.</p>
 </div>
 <div class="section" id="installing-kms">
-<span id="installing-kms"></span><h1>Installing KMS<a class="headerlink" href="#installing-kms" title="Permalink to this headline">¶</a></h1>
+<h1>Installing KMS<a class="headerlink" href="#installing-kms" title="Permalink to this headline">¶</a></h1>
 <p>For installing Kurento Media Server (KMS),</p>
 <p>please refer to</p>
-<pre class="code highlight bash literal-block">
-www.kurento.org/
-</pre>
-<p>It is better to first install KMS so that you do not have to manually modify KMS config file.
-But if you still install KMS afterwards ie after you have installed either Option apt-get or Option dpkg then after KMS is installed, add manually into /etc/default/kurento-media-server-6.0</p>
-<pre class="code highlight bash literal-block">
-<span class="nb">export </span><span class="nv">DISPLAY</span><span class="o">=</span>:0
-</pre>
+<div class="code bash highlight-python"><div class="highlight"><pre>www.kurento.org/
+</pre></div>
+</div>
+<p>It is better to first install KMS so that you do not have to manually
+modify KMS config file. But if you still install KMS afterwards ie after
+you have installed either Option apt-get or Option dpkg then after KMS
+is installed, add manually into /etc/default/kurento-media-server-6.0</p>
+<div class="code bash highlight-python"><div class="highlight"><pre>export DISPLAY=:0
+</pre></div>
+</div>
 </div>
 <div class="section" id="installing-with-option-apt-get">
-<span id="installing-with-option-apt-get"></span><h1>Installing with Option apt-get<a class="headerlink" href="#installing-with-option-apt-get" title="Permalink to this headline">¶</a></h1>
-<p>Choose this if you wish to install with apt-get the latest release version (not necessarily contains the latest features).</p>
+<h1>Installing with Option apt-get<a class="headerlink" href="#installing-with-option-apt-get" title="Permalink to this headline">¶</a></h1>
+<p>Choose this if you wish to install with apt-get the latest release
+version (not necessarily contains the latest features).</p>
 <p>Execute:</p>
-<pre class="code highlight bash literal-block">
-<span class="nb">echo</span> <span class="s2">&quot;deb [arch=amd64] http://ssi.vtt.fi/ubuntu trusty main&quot;</span> <span class="p">|</span> sudo tee -a /etc/apt/sources.list
+<div class="code bash highlight-python"><div class="highlight"><pre>echo &quot;deb [arch=amd64] http://ssi.vtt.fi/ubuntu trusty main&quot; | sudo tee -a /etc/apt/sources.list
 sudo apt-get update
 sudo apt-get install ar-markerdetector
 sudo ldconfig
 sudo /etc/init.d/kurento-media-server-6.0 restart
-</pre>
+</pre></div>
+</div>
 </div>
 <div class="section" id="installing-with-option-dpkg">
-<span id="installing-with-option-dpkg"></span><h1>Installing with Option dpkg<a class="headerlink" href="#installing-with-option-dpkg" title="Permalink to this headline">¶</a></h1>
+<h1>Installing with Option dpkg<a class="headerlink" href="#installing-with-option-dpkg" title="Permalink to this headline">¶</a></h1>
 <p>Note that this is alternative to the Option apt-get.</p>
-<p>Choose this if you wish to install with dpkg the latest release version (not necessarily contains the latest features).</p>
-<p>Fetch and install the debian package: <a class="reference external" href="http://ssi.vtt.fi/ubuntu/dists/trusty/main/binary-amd64/amd64/ar-markerdetector_0.0.6~rc1_amd64.deb">ar-markerdetector_0.0.6~rc1_amd64.deb</a></p>
-<pre class="code highlight bash literal-block">
-sudo dpkg -i ar-markerdetector_0.0.6~rc1_amd64.deb
+<p>Choose this if you wish to install with dpkg the latest release version
+(not necessarily contains the latest features).</p>
+<p>Fetch and install the debian package:
+<a class="reference external" href="http://ssi.vtt.fi/ubuntu/dists/trusty/main/binary-amd64/amd64/ar-markerdetector_0.0.6~rc1_amd64.deb">ar-markerdetector_0.0.6~rc1_amd64.deb</a></p>
+<div class="code bash highlight-python"><div class="highlight"><pre>sudo dpkg -i ar-markerdetector_0.0.6~rc1_amd64.deb
 sudo apt-get -f install
 sudo ldconfig
 sudo /etc/init.d/kurento-media-server-6.0 restart
-</pre>
+</pre></div>
+</div>
 </div>
 
 
