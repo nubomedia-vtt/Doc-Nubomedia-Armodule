@@ -11,6 +11,11 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+README.rst
+DevelopersGuide.rst
+InstallationGuide.rst
+License.rst
+
 Demo <https://github.com/nubomedia-vtt/armoduledemos/README.md>`__
 
 
