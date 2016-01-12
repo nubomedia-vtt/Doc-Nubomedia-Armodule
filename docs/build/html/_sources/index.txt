@@ -11,6 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+Demo <https://github.com/nubomedia-vtt/armoduledemos>`__
 
 
 Indices and tables
