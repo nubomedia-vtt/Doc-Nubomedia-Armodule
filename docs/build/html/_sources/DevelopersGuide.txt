@@ -1,5 +1,6 @@
+%%%%%%%%%%%%%%%%
 Developers Guide
-================
+%%%%%%%%%%%%%%%%
 
 This documents provides information how to develope the ARModule.
 

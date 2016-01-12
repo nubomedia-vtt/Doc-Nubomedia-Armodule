@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>AR marker detector filter with 3D &mdash; Nubomedia-VTT-AR 1.0 documentation</title>
+  <title>Installation Guide &mdash; Nubomedia-VTT-AR 1.0 documentation</title>
   
 
   
@@ -30,7 +30,9 @@
   
 
   
-    <link rel="top" title="Nubomedia-VTT-AR 1.0 documentation" href="index.html"/> 
+    <link rel="top" title="Nubomedia-VTT-AR 1.0 documentation" href="index.html"/>
+        <link rel="next" title="License" href="License.html"/>
+        <link rel="prev" title="Developers Guide" href="DevelopersGuide.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -79,7 +81,21 @@
           
             
             
-                <ul class="simple">
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="README.html">Readme</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DevelopersGuide.html">Developers Guide</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Installation Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#ar-marker-detector-filter-with-3d">AR marker detector filter with 3D</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installation-instructions">Installation instructions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#recommend-easy-installation">Recommend easy installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-kms">Installing KMS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-with-option-apt-get">Installing with Option apt-get</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-with-option-dpkg">Installing with Option dpkg</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="License.html">License</a></li>
 </ul>
 
             
@@ -110,7 +126,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>AR marker detector filter with 3D</li>
+    <li>Installation Guide</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -124,17 +140,19 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="ar-marker-detector-filter-with-3d">
-<h1>AR marker detector filter with 3D<a class="headerlink" href="#ar-marker-detector-filter-with-3d" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="installation-guide">
+<h1>Installation Guide<a class="headerlink" href="#installation-guide" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="ar-marker-detector-filter-with-3d">
+<h2>AR marker detector filter with 3D<a class="headerlink" href="#ar-marker-detector-filter-with-3d" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="installation-instructions">
-<h2>Installation instructions<a class="headerlink" href="#installation-instructions" title="Permalink to this headline">¶</a></h2>
+<h3>Installation instructions<a class="headerlink" href="#installation-instructions" title="Permalink to this headline">¶</a></h3>
 <p><em>version 2015-09-24</em></p>
 <p><em>Tested on Ubuntu Server 14</em></p>
 <p><em>Tested on Ubuntu Desktop 14</em></p>
 </div>
 </div>
 <div class="section" id="recommend-easy-installation">
-<h1>Recommend easy installation<a class="headerlink" href="#recommend-easy-installation" title="Permalink to this headline">¶</a></h1>
+<h2>Recommend easy installation<a class="headerlink" href="#recommend-easy-installation" title="Permalink to this headline">¶</a></h2>
 <p>These are the instructions to utilize the ar-markerdetector filter.</p>
 <p>If you wish to have the most convenient installation, you should install
 the following in this order:</p>
@@ -144,7 +162,7 @@ the following in this order:</p>
 <p>Note that for each of these, installation instructions are given below.</p>
 </div>
 <div class="section" id="installing-kms">
-<h1>Installing KMS<a class="headerlink" href="#installing-kms" title="Permalink to this headline">¶</a></h1>
+<h2>Installing KMS<a class="headerlink" href="#installing-kms" title="Permalink to this headline">¶</a></h2>
 <p>For installing Kurento Media Server (KMS),</p>
 <p>please refer to</p>
 <div class="code bash highlight-python"><div class="highlight"><pre>www.kurento.org/
@@ -159,7 +177,7 @@ is installed, add manually into /etc/default/kurento-media-server-6.0</p>
 </div>
 </div>
 <div class="section" id="installing-with-option-apt-get">
-<h1>Installing with Option apt-get<a class="headerlink" href="#installing-with-option-apt-get" title="Permalink to this headline">¶</a></h1>
+<h2>Installing with Option apt-get<a class="headerlink" href="#installing-with-option-apt-get" title="Permalink to this headline">¶</a></h2>
 <p>Choose this if you wish to install with apt-get the latest release
 version (not necessarily contains the latest features).</p>
 <p>Execute:</p>
@@ -172,7 +190,7 @@ sudo /etc/init.d/kurento-media-server-6.0 restart
 </div>
 </div>
 <div class="section" id="installing-with-option-dpkg">
-<h1>Installing with Option dpkg<a class="headerlink" href="#installing-with-option-dpkg" title="Permalink to this headline">¶</a></h1>
+<h2>Installing with Option dpkg<a class="headerlink" href="#installing-with-option-dpkg" title="Permalink to this headline">¶</a></h2>
 <p>Note that this is alternative to the Option apt-get.</p>
 <p>Choose this if you wish to install with dpkg the latest release version
 (not necessarily contains the latest features).</p>
@@ -185,11 +203,21 @@ sudo /etc/init.d/kurento-media-server-6.0 restart
 </pre></div>
 </div>
 </div>
+</div>
 
 
            </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="License.html" class="btn btn-neutral float-right" title="License" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="DevelopersGuide.html" class="btn btn-neutral" title="Developers Guide" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

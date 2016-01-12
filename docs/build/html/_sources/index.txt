@@ -10,9 +10,8 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-
-	      README.rst
-	      DevelopersGuide.rst
-	      InstallationGuide.rst
-	      License.rst
+  README.rst
+  DevelopersGuide.rst
+  InstallationGuide.rst
+  License.rst
 
