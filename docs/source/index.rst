@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Nubomedia-VTT-AR's documentation!!!
+Welcome to Nubomedia-VTT-AR's documentation!
 ============================================
 
 Contents:
@@ -11,18 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-README.rst
-DevelopersGuide.rst
-InstallationGuide.rst
-License.rst
-
-Demo <https://github.com/nubomedia-vtt/armoduledemos/README.md>`__
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+	      README.rst
+	      DevelopersGuide.rst
+	      InstallationGuide.rst
+	      License.rst
 
