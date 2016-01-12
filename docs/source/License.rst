@@ -1,3 +1,9 @@
+.. _license:
+
+*******
+License
+*******
+
 Kurento is distributed as Open Source Software basing LGPL v2.1 license.
 
 ALVAR 2.0.0 - A Library for Virtual and Augmented Reality Copyright

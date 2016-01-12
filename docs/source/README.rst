@@ -1,7 +1,12 @@
+.. _README:
+
+*****
+Readme
+*****
 This project is part of NUBOMEDIA
 `www.nubomedia.eu <http://www.nubomedia.eu>`__
 
-ARModule contains marker detector filter utilizing ALVAR augmented
+**ARModule** contains marker detector filter utilizing ALVAR augmented
 reality library ie ALVAR markers can be detected from the video image.
 ARModule can render 2D and 3D augmentation with OpenCV and Irrlicht
 rendering engine above the detected ALVAR marker. ARModule can also and
