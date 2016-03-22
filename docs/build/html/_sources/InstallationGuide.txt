@@ -44,7 +44,7 @@ please refer to
 It is better to first install KMS so that you do not have to manually
 modify KMS config file. But if you still install KMS afterwards ie after
 you have installed either Option apt-get or Option dpkg then after KMS
-is installed, add manually into /etc/default/kurento-media-server-6.0
+is installed, add manually eg into /etc/default/kurento-media-server-6.0
 
 .. code:: bash
 

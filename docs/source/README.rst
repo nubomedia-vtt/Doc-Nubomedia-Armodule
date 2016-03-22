@@ -23,8 +23,11 @@ Some Alvar markers can be found eg from
 Eg the zero marker is defined as MarkerData\_0.png
 
 Artifacts:
+
 Maven Central:
 http://repo1.maven.org/maven2/fi/vtt/nubomedia/arfilter/
+
 http://repo1.maven.org/maven2/fi/vtt/nubomedia/kurento/arfilterdemo/
+
 Npm:
 https://www.npmjs.com/package/fi-vtt-nubomedia-kurento-module-armarkerdetector
