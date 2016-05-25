@@ -75,11 +75,11 @@ Choose this if you wish to install with dpkg the latest release version
 (not necessarily contains the latest features).
 
 Fetch and install the debian package:
-`ar-markerdetector\_1.0\_amd64.deb <http://ssi.vtt.fi/ubuntu/dists/trusty/main/binary-amd64/amd64/ar-markerdetector_1.0_amd64.deb>`__
+`ar-markerdetector\_1.0\_amd64.deb <http://ssi.vtt.fi/ubuntu/dists/trusty/main/binary-amd64/amd64/ar-markerdetector_6.4.0_amd64.deb>`__
 
 .. code:: bash
 
-    sudo dpkg -i ar-markerdetector_1.0_amd64.deb
+    sudo dpkg -i ar-markerdetector_6.4.0_amd64.deb
     sudo apt-get -f install
     sudo ldconfig
     sudo /etc/init.d/kurento-media-server-6.0 restart
