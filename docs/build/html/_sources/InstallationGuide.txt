@@ -75,7 +75,7 @@ Choose this if you wish to install with dpkg the latest release version
 (not necessarily contains the latest features).
 
 Fetch and install the debian package:
-`ar-markerdetector\_1.0\_amd64.deb <http://ssi.vtt.fi/ubuntu/dists/trusty/main/binary-amd64/amd64/ar-markerdetector_6.4.0_amd64.deb>`__
+`ar-markerdetector\_6.4.0\_amd64.deb <http://ssi.vtt.fi/ubuntu/dists/trusty/main/binary-amd64/amd64/ar-markerdetector_6.4.0_amd64.deb>`__
 
 .. code:: bash
 
