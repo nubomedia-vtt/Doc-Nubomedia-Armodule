@@ -18,7 +18,7 @@ Setup the developing environment
     cd armodule/misc
     chmod u+x setup.sh
     ./setup.sh
-    cd ..
+    cd ../ar-markerdetector
 
 Create a folder to build the ARModule
 
