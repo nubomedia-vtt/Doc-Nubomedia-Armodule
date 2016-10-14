@@ -18,7 +18,7 @@ ARModule and also the source code of the ARModule implementation.
 
 **Alvar Markers**
 
-Some Alvar markers can be found eg from
+Some Alvar markers can be found eg from:
 `AlvarMarkers <https://github.com/nubomedia-vtt/armodule/tree/master/AlvarMarkers>`__
 Eg the zero marker is defined as MarkerData\_0.png
 
