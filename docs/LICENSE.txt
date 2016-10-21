@@ -10,3 +10,11 @@
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  See the License for the specific language governing permissions and
  limitations under the License.
+
+ALVAR 2.0.0 - A Library for Virtual and Augmented Reality Copyright 2007-2012 V\
+TT Technical Research Centre of Finland Licensed under the GNU Lesser General P\
+ublic License
+
+Irrlicht Engine, the zlib and libpng. The Irrlicht Engine is based in part on t\
+he work of the Independent JPEG Group The module utilizes IJG code when the Irr\
+licht engine is compiled with support for JPEG images.
